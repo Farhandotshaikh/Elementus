@@ -55,6 +55,7 @@ import BackdropHueRotate from "./components/Filters/BackdropHueRotate";
 import BackdropInvert from "./components/Filters/BackdropInvert";
 import BackdropOpacity from "./components/Filters/BackdropOpacity";
 import BackdropSaturate from "./components/Filters/BackdropSaturate";
+import BackdropSepia from "./components/Filters/BackdropSepia";
 import Blur from "./components/Filters/Blur";
 import Brightness from "./components/Filters/Brightness";
 import Contrast from "./components/Filters/Contrast";
@@ -297,6 +298,7 @@ export default function Docs() {
             <Route path="/Filters/BackdropInvert" element={<BackdropInvert />} />
             <Route path="/Filters/BackdropOpacity" element={<BackdropOpacity />} />
             <Route path="/Filters/BackdropSaturate" element={<BackdropSaturate />} />
+            <Route path="/Filters/BackdropSepia" element={<BackdropSepia />} />
             <Route path="/Filters/Blur" element={<Blur />} />
             <Route path="/Filters/Brightness" element={<Brightness />} />
             <Route path="/Filters/Contrast" element={<Contrast />} />

@@ -520,6 +520,30 @@ export const filterComponents = {
         },
       },
     },
+
+    filter: {
+      title: "Filter",
+      description: "Utilities for enabling and disabling filters on an element.",
+      table: {
+        headers: ["Class", "Properties"],
+        rows: [
+          ["E-filter", "filter: filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);"],
+          ["E-filter-none", "filter: none"],
+          
+        ],
+      },
+      usage: {
+        description: "Use the filter utility to enable filters (in combination with other filter utilities like blur or grayscale), and the filter-none utility to remove filters.",
+        example: {
+          image: "/placeholder.svg?height=200&width=400",
+          code: `
+<div class="filter grayscale blur-md contrast-200 ...">
+  <!-- ... -->
+</div>    
+          `,
+        },
+      },
+    },
   
     // Grayscale
     grayscale: {
