@@ -71,6 +71,7 @@ import FlexDirection from "./components/FlexGrid/FlexDirection";
 import FlexGrow from "./components/FlexGrid/FlexGrow";
 import FlexShrink from "./components/FlexGrid/FlexShrink";
 import FlexWrap from "./components/FlexGrid/FlexWrap";
+import Flex from "./components/FlexGrid/Flex";
 import Gap from "./components/FlexGrid/Gap";
 import GridAutoColumns from "./components/FlexGrid/GridAutoColumns";
 import GridAutoFlow from "./components/FlexGrid/GridAutoFlow";
@@ -195,6 +196,7 @@ export default function Docs() {
             <Route path="/FlexGrid/FlexGrow" element={<FlexGrow />} />
             <Route path="/FlexGrid/FlexShrink" element={<FlexShrink />} />
             <Route path="/FlexGrid/FlexWrap" element={<FlexWrap />} />
+            <Route path="/FlexGrid/Flex" element={<Flex />} />
             <Route path="/FlexGrid/JustifyContent" element={<JustifyContent />} />
             <Route path="/FlexGrid/JustifyItems" element={<JustifyItems />} />
             <Route path="/FlexGrid/JustifySelf" element={<JustifySelf />} />

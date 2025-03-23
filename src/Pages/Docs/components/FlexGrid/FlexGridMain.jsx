@@ -306,8 +306,6 @@ export const flexGridComponents = {
         rows: [
           ["E-auto-rows-auto", "grid-auto-rows: auto"],
           ["E-auto-rows-min", "grid-auto-rows: min-content"],
-          ['E  "grid-auto-rows: auto'],
-          ["E-auto-rows-min", "grid-auto-rows: min-content"],
           ["E-auto-rows-max", "grid-auto-rows: max-content"],
           ["E-auto-rows-fr", "grid-auto-rows: minmax(0, 1fr)"],
         ],

@@ -1,8 +1,8 @@
 import flexGridComponents from "./FlexGridMain"
 
-export default function GridColumnStartENd() {
+export default function GridColumnStartEnd() {
   // Get the component info from the central file
-  const componentInfo = flexGridComponents.gridColumnStartENd
+  const componentInfo = flexGridComponents.gridColumnStartEnd
 
   return (
     <div className="flexGrid-component">
